@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/rust-postgres
 {
-    "name": "Invex",
+    "name": "Fullstack",
     "dockerComposeFile": "docker-compose.yml",
     "service": "app",
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
@@ -16,7 +16,7 @@
     "forwardPorts": [8080, 8081, 5984],
 
     // Use 'postCreateCommand' to run commands after the container is created.
-    "postCreateCommand": "sh -c /workspaces/Invex/install.sh"
+    "postCreateCommand": "sh -c /workspaces/Fullstack/install.sh"
 
     // Configure tool-specific properties.
     // "customizations": {},

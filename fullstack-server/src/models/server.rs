@@ -15,6 +15,6 @@ pub struct ServerInfo {
 impl<'r> FromRequest<'r> for ServerInfo {
     type Error = ApiError;
     async fn from_request(req: &'r Request<'_>) -> Outcome<Self, Self::Error> {
-        Outcome::Success(ServerInfo {profile: req.rocket().config().profile.to_string(), request_time: Utc::now(), session: req.cookies().get_private("invex:token").unwrap().value().to_string()})
+        Outcome::Success(ServerInfo {profile: req.rocket().config().profile.to_string(), request_time: Utc::now(), session: req.cookies().get_private("fullstack:token").unwrap().value().to_string()})
     }
 }

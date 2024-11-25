@@ -1,5 +1,5 @@
 {
-    "rust-analyzer.linkedProjects": ["invex-server/Cargo.toml"],
+    "rust-analyzer.linkedProjects": ["fullstack-server/Cargo.toml"],
     "cssVariables.lookupFiles": [
         "**/*.css",
         "**/*.scss",

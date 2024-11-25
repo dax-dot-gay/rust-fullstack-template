@@ -12,5 +12,5 @@ session_duration = "96h"
 
 [default.app.database]
 host = "http://localhost:5984"
-username = "invex"
-password = "invex"
+username = "fullstack"
+password = "fullstack"
